@@ -2,7 +2,7 @@ const products = [
     {
         name:"Biryani",
         // image:"../assets/images/biriyani.avif",
-        image:"./assets/images/biriyani.avif",
+        image:"/assets/images/biriyani.avif",
     },
     {
         name:"Chicken",
