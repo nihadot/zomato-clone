@@ -10,11 +10,11 @@ const products = [
     },
     {
         name:"Fried Rice",
-        image:"../assets/images/frid-rice.avif"
+        image:"./assets/images/frid-rice.avif"
     },
     {
         name:"Shawarma",
-        image:"../assets/images/shawarma.avif"
+        image:"assets/images/shawarma.avif"
     },
     {
         name:"Butter Chicken",
