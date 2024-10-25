@@ -1,16 +1,15 @@
 const products = [
     {
         name:"Biryani",
-        // image:"../assets/images/biriyani.avif",
-        image:"/assets/images/biriyani.avif",
+        image:"assets/images/biriyani.avif",
     },
     {
         name:"Chicken",
-        image:"../assets/images/chiken.avif",
+        image:"assets/images/chiken.avif",
     },
     {
         name:"Fried Rice",
-        image:"./assets/images/frid-rice.avif"
+        image:"assets/images/frid-rice.avif"
     },
     {
         name:"Shawarma",
@@ -18,19 +17,19 @@ const products = [
     },
     {
         name:"Butter Chicken",
-        image:"../assets/images/butter-chiken.avif"
+        image:"assets/images/butter-chiken.avif"
     },
     {
         name:"Fish",
-        image:"../assets/images/fish.avif"
+        image:"assets/images/fish.avif"
     },
     {
         name:"Noodles",
-        image:"../assets/images/noodles.avif"
+        image:"assets/images/noodles.avif"
     },
     {
         name:"Pratha",
-        image:"../assets/images/pratha.avif"
+        image:"assets/images/pratha.avif"
     }
 ]
 
