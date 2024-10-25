@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px auto;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+}
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-300 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.mx-container{
+        margin: 0px 160px;
+}
+
+.px-container{
+    padding: 0px 160px;
+}
+
+
+
+
+
+.w-36{
+    width: 36px;
+}
+.h-36{
+    height: 36px;
+}
+
+.left-svg-icon{
+    width: 20px;
+    height: 20px;
+    /* margin-right: 8px; */
+}
+
+.right-svg-icon{
+    width: 12px;
+    height: 12px;
+    /* margin-left: 8px; */
+}
+
+
+.inspiration-heading{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+    padding-top: 30px;
+
+ }
+
+
+ .btn-first-color{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+ }
+
+ .bottom-arrow-svg-icon{
+    width: 12px;
+    height: 12px;
+ }
+
+ .btn:hover{
+    box-shadow: 0 0 0 .25rem rgb(253 13 13 / 25%);
+ }
+
+ .rounded-10{
+    border-radius: 10px;
+ }
+
+.w-10{
+    width: 150px;
+ }
+
+ .delivered-areas{
+    text-align: left;
+ }
+ .delivered-areas li{
+   width: 160px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    text-align: left;
+
+ }
+ .popular-dishes li{
+    width: 200px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    text-align: left;
+flex: 1 1 auto!important;
+ }

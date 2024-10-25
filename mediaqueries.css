@@ -1,0 +1,194 @@
+@media(max-width:1364px){
+    .mx-container{
+        margin: 0px 140px;
+    }
+    .px-container{
+        padding: 0px 140px;
+    }
+}
+
+
+@media(max-width:1330px){
+    .mx-container{
+        margin: 0px 100px;
+    }
+    .px-container{
+        padding: 0px 100px;
+    }
+}
+
+@media(max-width:1264px){
+    .mx-container{
+        margin: 0px 80px;
+    }
+    .px-container{
+        padding: 0px 80px;
+    }
+}
+
+@media(max-width:1200px){
+    .mx-container{
+        margin: 0px 60px;
+    }
+    .px-container{
+        padding: 0px 60px;
+    }
+}
+
+@media(max-width:1160px){
+    .mx-container{
+        margin: 0px 40px;
+    }
+    .header .header-nav-right{
+        margin-left: 10px;
+    }
+    .px-container{
+        padding: 0px 0px;
+    }
+    .insprition-order-section  .right-icon-container{
+        right: 0px;
+    }
+}
+
+
+@media(max-width:1160px){
+    .mx-container{
+        margin: 0px 20px;
+    }
+    .px-container{
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width:894px){
+    .header{
+        display: none;
+        
+    }
+    .insprition-order-section-container{
+        display: none;
+    }
+    .mobile-header{
+        display: flex;
+        position: fixed;
+        height: 56px;
+        z-index: 10;
+        width: 100%;
+        background-color: white;
+        top: 0px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 6px -6px;
+    }
+    .mobile-search-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(28, 28, 28, 0.06) 0px 1px 4px;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        top: 52px;
+        z-index: 8;
+    }
+    .mobile-search-container .mobile-search-container-left label{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .mobile-search-container .mobile-search-icon{
+        background-color: #f8f8f8;
+        border: 1px solid #e8e8e8;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+
+    /* if user start to scrolling then move to fixed and display visible */
+    .search-mobile-section{
+        display: block;
+        align-items: center;
+        width: 100%;
+        /* padding-top: 110px; */
+    }
+
+
+    /* visible if user starts to scrolling */
+    /* user start to scrolling display flex */
+    /* otherwise display none on both devices */
+    .search-mobile-section .mobile-search-section-container{
+        width: 100%;
+        border: 1px solid rgb(232, 232, 232);
+        display: flex;
+        padding: 0px 16px;
+        align-items: center;
+        border-radius: 36px;
+        height: 46px;
+    box-shadow: rgba(54, 54, 54, 0.08) 0px 2px 2px;
+    }
+    .search-mobile-section .mobile-search-section-container .mobile-search-section-icon{
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-mobile-section .mobile-search-section-container input{
+        border: none;
+        outline: none;width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .filer-meun-section{
+        margin-top: 110px;
+    }
+    .dynamic-sticky-container{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: white;
+        /* z-index: 111; */
+    }
+
+    .inspiration-heading{
+    font-size: 20px;
+
+    }
+    .mobile-inspiration-container{
+        display: block;
+    }
+    .social-media-container{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media-container{
+        margin-top: 10px;
+    }
+    .app-icon{
+        display: none;
+    }
+    .app-icon-top{
+        display: block;
+    }
+    .app-icon-container{
+        display: none;
+    }
+    .footer-social-links .social-link{
+        width: 28px;
+        height: 28px;
+    }
+    .footer-links .app-icon-container{
+        display: flex;
+    }
+    .footer-links.mt-14{
+        margin-top: 14px;
+    }
+    .popular-localities .col-4{
+        padding: 4px;
+    }
+}
+
+
